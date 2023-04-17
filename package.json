@@ -1,8 +1,8 @@
 {
-  "name": "goit-react-hw-05-movies",
+  "name": "goit-react-hw-06-phonebook",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ivanprokh.github.io/goit-react-hw-05-movies/",
+  "homepage": "https://ivanprokh.github.io/goit-react-hw-06-phonebook/",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.4",
     "@testing-library/jest-dom": "^5.16.3",
