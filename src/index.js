@@ -1,17 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter } from 'react-router-dom';
 import { ThemeProvider } from 'styled-components';
+
+import { store } from './redux/store';
+import { Provider } from 'react-redux';
+
 import { App } from 'components/App';
 import { theme } from './theme';
 import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter basename="/goit-react-hw-05-movies">
-      <ThemeProvider theme={theme}>
+    <ThemeProvider theme={theme}>
+      <Provider store={store}>
         <App />
-      </ThemeProvider>
-    </BrowserRouter>
+      </Provider>
+    </ThemeProvider>
   </React.StrictMode>
 );
