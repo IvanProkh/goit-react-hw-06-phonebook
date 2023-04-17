@@ -1,0 +1,90 @@
+@import-normalize; /* bring in normalize.css styles */
+
+html {
+  box-sizing: border-box;
+  width: 100vw;
+  overflow-x: hidden;
+  /* height: 100%; */
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  color: #fff;
+  background-color: #1d1d1d;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* background-color: rgb(226, 217, 217); */
+  line-height: 1.5;
+
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; */
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
